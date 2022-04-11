@@ -159,7 +159,7 @@
 	<div id="footer">
 		<div class="foot">
 			<label style="font-size:17px;"> Copyright &copy; </label>
-			<p style="font-size:25px;">Online Shoe Store Inc. 2022 Brought To You </p>
+			<p style="font-size:25px;">Online Shoe Store Inc. 2022 </p>
 		</div>
 
 			<div id="foot">
