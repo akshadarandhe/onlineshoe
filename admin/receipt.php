@@ -230,7 +230,7 @@
 
 	</table>
 	<legend></legend>
-	<h4>TOTAL: Php <?php echo $amnt; ?></h4>
+	<h4>TOTAL: Rs <?php echo $amnt; ?></h4>
 	</center>
 	</div>
 
