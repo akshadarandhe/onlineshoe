@@ -68,7 +68,7 @@
 									<td class="profile">Country:</td><td class="profile"><?php echo $fetch['country'];?></td>
 								</tr>
 								<tr>
-									<td class="profile">ZIP Code:</td><td class="profile"><?php echo $fetch['zipcode'];?></td>
+									<td class="profile">pin Code:</td><td class="profile"><?php echo $fetch['pincode'];?></td>
 								</tr>
 								<tr>
 									<td class="profile">Mobile Number:</td><td class="profile"><?php echo $fetch['mobile'];?></td>
@@ -132,26 +132,25 @@ $grandtotal=$totalcharge+$total;
 ?>
 
 	<input type="hidden" name="cmd" value="_xclick" />
-        <input type="hidden" name="business" value="mamma__1330248786_biz@yahoo.com" />
+        <input type="hidden" name="business" value="akshada@business.example.com" />
         <input type="hidden" name="item_name" value="<?php echo $cusid; ?>" />
         <input type="hidden" name="item_number" value="<?php echo $transactioncode; ?>" />
         <input type="hidden" name="amount" value="<?php echo $grandtotal; ?>" />
         <input type="hidden" name="no_shipping" value="1" />
         <input type="hidden" name="no_note" value="1" />
-        <input type="hidden" name="currency_code" value="INR" />
-        <input type="hidden" name="lc" value="GB" />
+        <input type="hidden" name="currency_code" value="USD" />
+        <input type="hidden" name="lc" value="AU" />
         <input type="hidden" name="bn" value="PP-BuyNowBF" /><br />
 		<div style="margin:0 auto; width:50px;">
         <input type="image" src="images/button.jpg" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!"  />
         <img alt="fdff" border="0" src="https://www.paypal.com/en_GB/i/scr/pixel.gif" width="1" height="1" />
 		</div>
         <!-- Payment confirmed -->
-        <input type="hidden" name="return" value="http://mammamarias.elementfx.com/showconfirm.php" />
+        <input type="hidden" name="return" value="http://localhost/onlineshoe/function/success.php" />
         <!-- Payment cancelled -->
-        <input type="hidden" name="cancel_return" value="http://mammamarias.elementfx.com/cancel.php" />
+        <input type="hidden" name="cancel_return" value="http://localhost/onlineshoe/function/cancel.php" />
         <input type="hidden" name="rm" value="2" />
-        <input type="hidden" name="notify_url" value="http://mammamarias.elementfx.com/ipn.php" />
-        <input type="hidden" name="custom" value="any other custom field you want to pass" />
+        <!-- <input type="hidden" name="notify_url" value="http://localhost/onlineshoe/function/success.php" /> -->
     </form>
 
 </div>

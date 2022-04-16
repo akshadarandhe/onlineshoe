@@ -68,7 +68,7 @@
 									<td class="profile">Country:</td><td class="profile"><?php echo $fetch['country'];?></td>
 								</tr>
 								<tr>
-									<td class="profile">ZIP Code:</td><td class="profile"><?php echo $fetch['zipcode'];?></td>
+									<td class="profile">pin Code:</td><td class="profile"><?php echo $fetch['pincode'];?></td>
 								</tr>
 								<tr>
 									<td class="profile">Mobile Number:</td><td class="profile"><?php echo $fetch['mobile'];?></td>
@@ -141,8 +141,8 @@
 	<br />
 	<div id="footer">
 		<div class="foot">
-			<label style="font-size:17px;"> Copyrght &copy; </label>
-			<p style="font-size:25px;">Online Shoe Store Inc. 2017 Brought To You by <a href="https://code-projects.org/">Code-Projects</a></p>
+			<label style="font-size:17px;"> Copyright &copy; </label>
+			<p style="font-size:25px;">Online Shoe Store Inc.</p>
 		</div>
 
 			<div id="foot">
@@ -150,7 +150,7 @@
 					<ul>
 						<a href="http://www.facebook.com"><li>Facebook</li></a>
 						<a href="http://www.twitter.com"><li>Twitter</li></a>
-					
+						
 					</ul>
 			</div>
 	</div>

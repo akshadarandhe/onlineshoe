@@ -66,7 +66,7 @@
 						<input type="text" name="lastname" placeholder="Lastname" required>
 						<input type="text" name="address" placeholder="Address" style="width:430px;"required>
 						<input type="text" name="country" placeholder="Province" required>
-						<input type="text" name="zipcode" placeholder="ZIP Code" required maxlength="4">
+						<input type="text" name="pincode" placeholder="pin Code" required maxlength="6">
 						<input type="text" name="mobile" placeholder="Mobile Number" maxlength="11">
 						<input type="text" name="telephone" placeholder="Telephone Number" maxlength="8">
 						<input type="email" name="email" placeholder="Email" required>
@@ -130,7 +130,7 @@
 	<div id="footer">
 		<div class="foot">
 			<label style="font-size:17px;"> Copyrght &copy; </label>
-			<p style="font-size:25px;">Online Shoe Store Inc. 2017 Brought To You by <a href="https://code-projects.org/">Code-Projects</a></p>
+			<p style="font-size:25px;">Online Shoe Store Inc.</p>
 		</div>
 
 			<div id="foot">
@@ -138,6 +138,7 @@
 					<ul>
 						<a href="http://www.facebook.com"><li>Facebook</li></a>
 						<a href="http://www.twitter.com"><li>Twitter</li></a>
+					
 					</ul>
 			</div>
 	</div>

@@ -55,7 +55,7 @@
 									$lastname=$fetch['lastname'];
 									$address=$fetch['address'];
 									$country=$fetch['country'];
-									$zipcode=$fetch['zipcode'];
+									$pincode=$fetch['pincode'];
 									$mobile=$fetch['mobile'];
 									$telephone=$fetch['telephone'];
 									$email=$fetch['email'];
@@ -84,7 +84,7 @@
 									<td>Province:</td><td><input type="text" name="country" placeholder="Province" required value="<?php echo $country;?>"></td>
 								</tr>
 								<tr>
-									<td>PIN Code:</td><td><input type="text" name="zipcode" placeholder="Pin Code" required value="<?php echo $zipcode;?>" maxlength="6"></td>
+									<td>pin Code:</td><td><input type="text" name="pincode" placeholder="pin Code" required value="<?php echo $pincode;?>" maxlength="6"></td>
 								</tr>
 								<tr>
 									<td>Mobile Number:</td><td><input type="text" name="mobile" placeholder="Mobile Number" value="<?php echo $mobile;?>" maxlength="11"></td>

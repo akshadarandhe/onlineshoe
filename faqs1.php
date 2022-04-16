@@ -68,7 +68,7 @@
 									<td class="profile">Country:</td><td class="profile"><?php echo $fetch['country'];?></td>
 								</tr>
 								<tr>
-									<td class="profile">ZIP Code:</td><td class="profile"><?php echo $fetch['zipcode'];?></td>
+									<td class="profile">pin Code:</td><td class="profile"><?php echo $fetch['pincode'];?></td>
 								</tr>
 								<tr>
 									<td class="profile">Mobile Number:</td><td class="profile"><?php echo $fetch['mobile'];?></td>
@@ -111,13 +111,13 @@
 			<legend>Frequently Added Questions</legend>
 
 				 <h4>DO YOU SHIP?</h4>
-					<p style="text-indent:60px;">Yes, we ship the products via LBC and 2GO only.</p>
+					<p style="text-indent:60px;">Yes, we ship the products.</p>
 				<hr>
 					<h4>DO YOU DELIVER?</h4>
 						<p style="text-indent:60px;">No, We only offer Shipping.</p>
 				<hr>
 					<h3>WHEN WILL I GET MY ORDERS?</h3>
-						<p style="text-indent:60px;">We wil ship your product 2-3 days around Negros Occidental and It will take 4-6 days Nationwide.</p>
+						<p style="text-indent:60px;">We wil ship your product .</p>
 				<hr>
 					<h3>HOW DO I PAY MY ORDERS?</h3>
 					<p style="text-indent:60px;">Through PAYPAL basis only.</p>
@@ -130,7 +130,7 @@
 	<div id="footer">
 		<div class="foot">
 			<label style="font-size:17px;"> Copyrght &copy; </label>
-			<p style="font-size:25px;">Online Shoe Store <a href="https://code-projects.org/"></a></p>
+			<p style="font-size:25px;">Online Shoe Store Inc.</p>
 		</div>
 
 			<div id="foot">
@@ -138,6 +138,7 @@
 					<ul>
 						<a href="http://www.facebook.com"><li>Facebook</li></a>
 						<a href="http://www.twitter.com"><li>Twitter</li></a>
+						
 					</ul>
 			</div>
 

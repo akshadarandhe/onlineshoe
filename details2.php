@@ -72,7 +72,7 @@
 									<td class="profile">Country:</td><td class="profile"><?php echo $fetch['country'];?></td>
 								</tr>
 								<tr>
-									<td class="profile">ZIP Code:</td><td class="profile"><?php echo $fetch['zipcode'];?></td>
+									<td class="profile">pin Code:</td><td class="profile"><?php echo $fetch['pincode'];?></td>
 								</tr>
 								<tr>
 									<td class="profile">Mobile Number:</td><td class="profile"><?php echo $fetch['mobile'];?></td>
@@ -114,7 +114,7 @@
 					<center>
 						<img class="img-polaroid" style="width:400px; height:350px;" src="photo/<?php echo $row['product_image']; ?>">
 						<h2 class="text-uppercase bg-primary"><?php echo $row['product_name']?></h2>
-						<h3 class="text-uppercase">Php <?php echo $row['product_price']?></h3>
+						<h3 class="text-uppercase">Rs <?php echo $row['product_price']?></h3>
 						<h3 class="text-uppercase">Size: <?php echo $row['product_size']?></h3>
 						<?php echo "<a href='cart2.php?id=".$id."&action=add'><input type='submit' class='btn btn-inverse' name='add' value='Add to Cart'></a> &nbsp;  <a href='product.php'><button class='btn btn-inverse'>Back</button></a> " ?>
 					</center>
@@ -143,7 +143,7 @@
 							<option value="12">12</option>
 						</select>
 						<br />
-						<h4>Total: P <?php echo $row['product_price']; ?> </h4>
+						<h4>Total: Rs <?php echo $row['product_price']; ?> </h4>
 						<br />
 						<input type="checkbox" required> I Agree the <a href="#terms" data-toggle="modal"> Terms and Condition</a> of Online Shoe Store Inc.
 					</center>
@@ -187,17 +187,15 @@
 	<br />
 	<div id="footer">
 		<div class="foot">
-			<label style="font-size:17px;"> Copyrght &copy; </label>
-			<p style="font-size:25px;">Online Shoe Store Inc. 2017 Brought To You by <a href="https://code-projects.org/">Code-Projects</a></p>
+			<label style="font-size:17px;"> Copyright &copy; </label>
+			<p style="font-size:25px;">Online Shoe Store Inc.  Brought To You </p>
 		</div>
 
 			<div id="foot">
 				<h4>Links</h4>
 					<ul>
-						<a href="http://www.facebook.com/OnlineShoeStore"><li>Facebook</li></a>
-						<a href="http://www.twitter.com/OnlineShoeStore"><li>Twitter</li></a>
-						<a href="http://www.pinterest.com/OnlineShoeStore"><li>Pinterest</li></a>
-						<a href="http://www.tumblr.com/OnlineShoeStore"><li>Tumblr</li></a>
+						<a href="http://www.facebook.com"><li>Facebook</li></a>
+						<a href="http://www.twitter.com"><li>Twitter</li></a>
 					</ul>
 			</div>
 	</div>

@@ -221,7 +221,7 @@
 							while($r3 = $Q3->fetch_array()){
 
 							$amnt = $r3['sum(amount)'];
-							echo "<tr><td></td><td>TOTAL : </td> <td><b>Php ".formatMoney($amnt)."</b></td></tr>";
+							echo "<tr><td></td><td>TOTAL : </td> <td><b>Rs ".formatMoney($amnt)."</b></td></tr>";
 							}
 							?>
 						  </tbody>

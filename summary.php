@@ -1,6 +1,6 @@
 <?php
 $paypal_url='https://www.sandbox.paypal.com/cgi-bin/webscr'; // Test Paypal API URL
-$paypal_id='yhannaki@gmail.com'; // Business email ID
+$paypal_id='akshada@business.example.com'; // Business email ID
 ?>
 <?php
 	include("function/session.php");
@@ -72,7 +72,7 @@ $paypal_id='yhannaki@gmail.com'; // Business email ID
 									<td class="profile">Country:</td><td class="profile"><?php echo $fetch['country'];?></td>
 								</tr>
 								<tr>
-									<td class="profile">ZIP Code:</td><td class="profile"><?php echo $fetch['zipcode'];?></td>
+									<td class="profile">pin Code:</td><td class="profile"><?php echo $fetch['pincode'];?></td>
 								</tr>
 								<tr>
 									<td class="profile">Mobile Number:</td><td class="profile"><?php echo $fetch['mobile'];?></td>
@@ -145,7 +145,7 @@ $paypal_id='yhannaki@gmail.com'; // Business email ID
 
 	</table>
 	<legend></legend>
-	<h4>TOTAL: Php <?php echo $amnt; ?></h4>
+	<h4>TOTAL: Rs <?php echo $amnt; ?></h4>
 	</form>
 	<div class='pull-right'>
 <div class="">
@@ -159,10 +159,10 @@ $paypal_id='yhannaki@gmail.com'; // Business email ID
     <input type="hidden" name="amount" value="<?php echo $amnt; ?>">
     <input type="hidden" name="cpp_header_image" value="http://www.phpgang.com/wp-content/uploads/gang.jpg">
     <input type="hidden" name="no_shipping" value="1">
-    <input type="hidden" name="currency_code" value="PHP">
+    <input type="hidden" name="currency_code" value="USD">
     <input type="hidden" name="handling" value="0">
-    <input type="hidden" name="cancel_return" value="function/cancel.php">
-    <input type="hidden" name="return" value="function/success.php">
+    <input type="hidden" name="cancel_return" value="http://localhost/onlineshoe/function/cancel.php">
+    <input type="hidden" name="return" value="http://localhost/onlineshoe/home.php">
     <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
     <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
     </form>
@@ -198,16 +198,15 @@ $paypal_id='yhannaki@gmail.com'; // Business email ID
 	<div id="footer">
 		<div class="foot">
 			<label style="font-size:17px;"> Copyrght &copy; </label>
-			<p style="font-size:25px;">Online Shoe Store Inc. 2017 Brought To You by <a href="https://code-projects.org/">Code-Projects</a></p>
+			<p style="font-size:25px;">Online Shoe Store Inc. </p>
 		</div>
 
 			<div id="foot">
 				<h4>Links</h4>
 					<ul>
-						<a href="http://www.facebook.com/OnlineShoeStore"><li>Facebook</li></a>
-						<a href="http://www.twitter.com/OnlineShoeStore"><li>Twitter</li></a>
-						<a href="http://www.pinterest.com/OnlineShoeStore"><li>Pinterest</li></a>
-						<a href="http://www.tumblr.com/OnlineShoeStore"><li>Tumblr</li></a>
+						<a href="http://www.facebook.com"><li>Facebook</li></a>
+						<a href="http://www.twitter.com"><li>Twitter</li></a>
+						
 					</ul>
 			</div>
 	</div>
